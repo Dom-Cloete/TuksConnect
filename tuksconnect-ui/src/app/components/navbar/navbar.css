@@ -1,0 +1,29 @@
+.navbar {
+  background-color: var(--graphite) !important;
+}
+
+.navbar-brand {
+  color: var(--custard) !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.navbar .btn-outline-light {
+  border-color: var(--powder-blue);
+  color: var(--powder-blue);
+}
+
+.navbar .btn-outline-light:hover {
+  background-color: var(--smart-blue);
+  border-color: var(--smart-blue);
+  color: white;
+}
+
+.navbar .btn-success {
+  background-color: var(--cinnamon);
+  border: none;
+}
+
+.navbar .btn-success:hover {
+  background-color: #a96a4c;
+}

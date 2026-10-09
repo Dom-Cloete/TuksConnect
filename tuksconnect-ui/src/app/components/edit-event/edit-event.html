@@ -1,0 +1,19 @@
+<div class="container mt-4">
+  <h2>Edit Event</h2>
+
+  <form [formGroup]="form">
+
+    <input class="form-control mb-2" formControlName="eventTitle">
+    <input class="form-control mb-2" formControlName="location">
+    <input class="form-control mb-2" type="number" formControlName="ticketPrice">
+
+    <button class="btn btn-primary me-2" (click)="submit()">
+      Update
+    </button>
+
+    <button class="btn btn-secondary" (click)="cancel()">
+      Cancel
+    </button>
+
+  </form>
+</div>

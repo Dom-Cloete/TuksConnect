@@ -1,0 +1,44 @@
+.container.mt-4 {
+  max-width: 600px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid var(--powder-blue);
+}
+
+.form-control:focus {
+  border-color: var(--smart-blue);
+  box-shadow: 0 0 0 0.2rem rgba(48, 102, 190, 0.25);
+}
+
+.btn-primary {
+  background-color: var(--smart-blue);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #2553a3;
+}
+
+.btn-secondary {
+  background-color: var(--graphite);
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #1f1e22;
+}
+
+.btn-success {
+  background-color: var(--cinnamon);
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #a96a4c;
+}

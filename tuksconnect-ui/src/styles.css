@@ -1,0 +1,15 @@
+:root {
+  --graphite: #323036;
+  --smart-blue: #3066BE;
+  --powder-blue: #B4C5E4;
+  --cinnamon: #BB7E5D;
+  --custard: #EDDEA4;
+}
+
+body {
+  background-color: var(--graphite);
+  color: var(--custard);
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+}

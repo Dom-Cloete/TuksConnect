@@ -1,0 +1,19 @@
+<div class="container mt-4">
+  <h2>Add Event</h2>
+
+  <form [formGroup]="form">
+    
+    <input class="form-control mb-2" placeholder="Event Title" formControlName="eventTitle">
+    <input class="form-control mb-2" placeholder="Location" formControlName="location">
+    <input class="form-control mb-2" type="number" placeholder="Ticket Price" formControlName="ticketPrice">
+
+    <button class="btn btn-success me-2" (click)="submit()" [disabled]="form.invalid">
+      Submit
+    </button>
+
+    <button class="btn btn-secondary" (click)="cancel()">
+      Cancel
+    </button>
+
+  </form>
+</div>

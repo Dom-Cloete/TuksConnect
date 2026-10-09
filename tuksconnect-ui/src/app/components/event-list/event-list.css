@@ -1,0 +1,39 @@
+.card {
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card-title {
+  color: var(--graphite);
+  font-weight: 600;
+}
+
+.card-text {
+  color: #555;
+}
+
+.btn-warning {
+  background-color: var(--custard);
+  border: none;
+  color: var(--graphite);
+}
+
+.btn-warning:hover {
+  background-color: #e6d68f;
+}
+
+.btn-danger {
+  background-color: var(--cinnamon);
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #a96a4c;
+}

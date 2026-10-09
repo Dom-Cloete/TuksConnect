@@ -1,0 +1,29 @@
+<div class="container mt-4">
+  <h2>TuksConnect Events</h2>
+
+  <div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let event of events">
+      
+      <div class="card shadow">
+        <div class="card-body">
+          
+          <h5 class="card-title">{{ event.eventTitle }}</h5>
+          <p class="card-text">
+            📍 {{ event.location }} <br>
+            💰 R{{ event.ticketPrice }}
+          </p>
+
+          <button class="btn btn-warning me-2" (click)="editEvent(event.id)">
+            Edit
+          </button>
+
+          <button class="btn btn-danger" (click)="deleteEvent(event.id)">
+            Delete
+          </button>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
